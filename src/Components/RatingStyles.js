@@ -1,6 +1,6 @@
-import Styled from 'styled-component';
+import styled from 'styled-component';
 
-export const Container = Styled.div `
+export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,10 +8,10 @@ export const Container = Styled.div `
     font-size: 60px;
 `
 
-export const Radio = Styled.input `
+export const Radio = styled.input`
     display: none;
 `
 
-export const Rating = Styled.div `
+export const Rating = styled.div`
     cursor: pointer;
 `
