@@ -1,7 +1,13 @@
+import React from 'react';
+
+import Rating from './Components/Rating';
+
 const App = () => {
   return (
-    <div className="App"></div>
-  );
+    <div>
+      App
+    </div>
+  )
 }
 
 export default App;
